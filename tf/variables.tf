@@ -81,7 +81,7 @@ variable "volume_size" {
 
 # vpc
 variable "dnsSupport" {
-  default = false
+  default = true
 }
 variable "dnsHostNames" {
   default = false
